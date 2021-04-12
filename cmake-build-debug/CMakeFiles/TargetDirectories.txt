@@ -1,0 +1,4 @@
+/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/c-practice.dir
+/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice.dir
