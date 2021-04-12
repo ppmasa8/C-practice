@@ -3,5 +3,7 @@ project(c_practice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_practice main.c)
-add_executable(c-practice lesson2.c)
+
+add_executable(c_practice-main main.c)
+add_executable(c_practice-lesson2 lesson2.c)
+add_executable(c_practice-lesson3 lesson3.c)

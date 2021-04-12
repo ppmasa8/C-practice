@@ -76,27 +76,27 @@ include CMakeFiles/c_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_practice.dir/flags.make
 
-CMakeFiles/c_practice.dir/main.c.o: CMakeFiles/c_practice.dir/flags.make
-CMakeFiles/c_practice.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_practice.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_practice.dir/main.c.o -c /Users/mmatsuzaki/ClionProjects/c-practice/main.c
+CMakeFiles/c_practice.dir/lesson3.c.o: CMakeFiles/c_practice.dir/flags.make
+CMakeFiles/c_practice.dir/lesson3.c.o: ../lesson3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_practice.dir/lesson3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_practice.dir/lesson3.c.o -c /Users/mmatsuzaki/ClionProjects/c-practice/lesson3.c
 
-CMakeFiles/c_practice.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_practice.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mmatsuzaki/ClionProjects/c-practice/main.c > CMakeFiles/c_practice.dir/main.c.i
+CMakeFiles/c_practice.dir/lesson3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_practice.dir/lesson3.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mmatsuzaki/ClionProjects/c-practice/lesson3.c > CMakeFiles/c_practice.dir/lesson3.c.i
 
-CMakeFiles/c_practice.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_practice.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mmatsuzaki/ClionProjects/c-practice/main.c -o CMakeFiles/c_practice.dir/main.c.s
+CMakeFiles/c_practice.dir/lesson3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_practice.dir/lesson3.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mmatsuzaki/ClionProjects/c-practice/lesson3.c -o CMakeFiles/c_practice.dir/lesson3.c.s
 
 # Object files for target c_practice
 c_practice_OBJECTS = \
-"CMakeFiles/c_practice.dir/main.c.o"
+"CMakeFiles/c_practice.dir/lesson3.c.o"
 
 # External object files for target c_practice
 c_practice_EXTERNAL_OBJECTS =
 
-c_practice: CMakeFiles/c_practice.dir/main.c.o
+c_practice: CMakeFiles/c_practice.dir/lesson3.c.o
 c_practice: CMakeFiles/c_practice.dir/build.make
 c_practice: CMakeFiles/c_practice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_practice"

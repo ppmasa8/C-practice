@@ -72,8 +72,9 @@ CMAKE_BINARY_DIR = /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/c-practice.dir/all
-all: CMakeFiles/c_practice.dir/all
+all: CMakeFiles/c_practice-lesson3.dir/all
+all: CMakeFiles/c_practice-lesson2.dir/all
+all: CMakeFiles/c_practice-main.dir/all
 
 .PHONY : all
 
@@ -83,64 +84,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/c-practice.dir/clean
-clean: CMakeFiles/c_practice.dir/clean
+clean: CMakeFiles/c_practice-lesson3.dir/clean
+clean: CMakeFiles/c_practice-lesson2.dir/clean
+clean: CMakeFiles/c_practice-main.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/c-practice.dir
+# Target rules for target CMakeFiles/c_practice-lesson3.dir
 
 # All Build rule for target.
-CMakeFiles/c-practice.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target c-practice"
-.PHONY : CMakeFiles/c-practice.dir/all
+CMakeFiles/c_practice-lesson3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target c_practice-lesson3"
+.PHONY : CMakeFiles/c_practice-lesson3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/c-practice.dir/rule: cmake_check_build_system
+CMakeFiles/c_practice-lesson3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c-practice.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c_practice-lesson3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/c-practice.dir/rule
+.PHONY : CMakeFiles/c_practice-lesson3.dir/rule
 
 # Convenience name for target.
-c-practice: CMakeFiles/c-practice.dir/rule
+c_practice-lesson3: CMakeFiles/c_practice-lesson3.dir/rule
 
-.PHONY : c-practice
+.PHONY : c_practice-lesson3
 
 # clean rule for target.
-CMakeFiles/c-practice.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/clean
-.PHONY : CMakeFiles/c-practice.dir/clean
+CMakeFiles/c_practice-lesson3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/clean
+.PHONY : CMakeFiles/c_practice-lesson3.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/c_practice.dir
+# Target rules for target CMakeFiles/c_practice-lesson2.dir
 
 # All Build rule for target.
-CMakeFiles/c_practice.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target c_practice"
-.PHONY : CMakeFiles/c_practice.dir/all
+CMakeFiles/c_practice-lesson2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target c_practice-lesson2"
+.PHONY : CMakeFiles/c_practice-lesson2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/c_practice.dir/rule: cmake_check_build_system
+CMakeFiles/c_practice-lesson2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c_practice.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c_practice-lesson2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/c_practice.dir/rule
+.PHONY : CMakeFiles/c_practice-lesson2.dir/rule
 
 # Convenience name for target.
-c_practice: CMakeFiles/c_practice.dir/rule
+c_practice-lesson2: CMakeFiles/c_practice-lesson2.dir/rule
 
-.PHONY : c_practice
+.PHONY : c_practice-lesson2
 
 # clean rule for target.
-CMakeFiles/c_practice.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/clean
-.PHONY : CMakeFiles/c_practice.dir/clean
+CMakeFiles/c_practice-lesson2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/clean
+.PHONY : CMakeFiles/c_practice-lesson2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/c_practice-main.dir
+
+# All Build rule for target.
+CMakeFiles/c_practice-main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target c_practice-main"
+.PHONY : CMakeFiles/c_practice-main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/c_practice-main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c_practice-main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/c_practice-main.dir/rule
+
+# Convenience name for target.
+c_practice-main: CMakeFiles/c_practice-main.dir/rule
+
+.PHONY : c_practice-main
+
+# clean rule for target.
+CMakeFiles/c_practice-main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/clean
+.PHONY : CMakeFiles/c_practice-main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

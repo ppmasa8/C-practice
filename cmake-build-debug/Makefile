@@ -130,30 +130,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named c-practice
+# Target rules for targets named c_practice-lesson3
 
 # Build rule for target.
-c-practice: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c-practice
-.PHONY : c-practice
+c_practice-lesson3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson3
+.PHONY : c_practice-lesson3
 
 # fast build rule for target.
-c-practice/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/build
-.PHONY : c-practice/fast
+c_practice-lesson3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/build
+.PHONY : c_practice-lesson3/fast
 
 #=============================================================================
-# Target rules for targets named c_practice
+# Target rules for targets named c_practice-lesson2
 
 # Build rule for target.
-c_practice: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice
-.PHONY : c_practice
+c_practice-lesson2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson2
+.PHONY : c_practice-lesson2
 
 # fast build rule for target.
-c_practice/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/build
-.PHONY : c_practice/fast
+c_practice-lesson2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/build
+.PHONY : c_practice-lesson2/fast
+
+#=============================================================================
+# Target rules for targets named c_practice-main
+
+# Build rule for target.
+c_practice-main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-main
+.PHONY : c_practice-main
+
+# fast build rule for target.
+c_practice-main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/build
+.PHONY : c_practice-main/fast
 
 lesson2.o: lesson2.c.o
 
@@ -161,7 +174,7 @@ lesson2.o: lesson2.c.o
 
 # target to build an object file
 lesson2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/lesson2.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/lesson2.c.o
 .PHONY : lesson2.c.o
 
 lesson2.i: lesson2.c.i
@@ -170,7 +183,7 @@ lesson2.i: lesson2.c.i
 
 # target to preprocess a source file
 lesson2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/lesson2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/lesson2.c.i
 .PHONY : lesson2.c.i
 
 lesson2.s: lesson2.c.s
@@ -179,8 +192,35 @@ lesson2.s: lesson2.c.s
 
 # target to generate assembly for a file
 lesson2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c-practice.dir/build.make CMakeFiles/c-practice.dir/lesson2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/lesson2.c.s
 .PHONY : lesson2.c.s
+
+lesson3.o: lesson3.c.o
+
+.PHONY : lesson3.o
+
+# target to build an object file
+lesson3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/lesson3.c.o
+.PHONY : lesson3.c.o
+
+lesson3.i: lesson3.c.i
+
+.PHONY : lesson3.i
+
+# target to preprocess a source file
+lesson3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/lesson3.c.i
+.PHONY : lesson3.c.i
+
+lesson3.s: lesson3.c.s
+
+.PHONY : lesson3.s
+
+# target to generate assembly for a file
+lesson3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson3.dir/build.make CMakeFiles/c_practice-lesson3.dir/lesson3.c.s
+.PHONY : lesson3.c.s
 
 main.o: main.c.o
 
@@ -188,7 +228,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -197,7 +237,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -206,7 +246,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice.dir/build.make CMakeFiles/c_practice.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-main.dir/build.make CMakeFiles/c_practice-main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -217,11 +257,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... c-practice"
-	@echo "... c_practice"
+	@echo "... c_practice-lesson2"
+	@echo "... c_practice-lesson3"
+	@echo "... c_practice-main"
 	@echo "... lesson2.o"
 	@echo "... lesson2.i"
 	@echo "... lesson2.s"
+	@echo "... lesson3.o"
+	@echo "... lesson3.i"
+	@echo "... lesson3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

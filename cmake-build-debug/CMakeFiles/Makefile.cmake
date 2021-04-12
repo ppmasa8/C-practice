@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/c-practice.dir/DependInfo.cmake"
-  "CMakeFiles/c_practice.dir/DependInfo.cmake"
+  "CMakeFiles/c_practice-lesson3.dir/DependInfo.cmake"
+  "CMakeFiles/c_practice-lesson2.dir/DependInfo.cmake"
+  "CMakeFiles/c_practice-main.dir/DependInfo.cmake"
   )
