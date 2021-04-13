@@ -1,5 +1,6 @@
-/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-lesson3.dir
-/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-lesson2.dir
-/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-main.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-lesson3.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-lesson2.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-lesson4.dir
+/Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles/c_practice-main.dir
