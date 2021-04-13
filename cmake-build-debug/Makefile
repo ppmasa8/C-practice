@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named c_practice-lesson5
+
+# Build rule for target.
+c_practice-lesson5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson5
+.PHONY : c_practice-lesson5
+
+# fast build rule for target.
+c_practice-lesson5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson5.dir/build.make CMakeFiles/c_practice-lesson5.dir/build
+.PHONY : c_practice-lesson5/fast
+
+#=============================================================================
 # Target rules for targets named c_practice-lesson3
 
 # Build rule for target.
@@ -262,6 +275,33 @@ lesson4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson4.dir/build.make CMakeFiles/c_practice-lesson4.dir/lesson4.c.s
 .PHONY : lesson4.c.s
 
+lesson5.o: lesson5.c.o
+
+.PHONY : lesson5.o
+
+# target to build an object file
+lesson5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson5.dir/build.make CMakeFiles/c_practice-lesson5.dir/lesson5.c.o
+.PHONY : lesson5.c.o
+
+lesson5.i: lesson5.c.i
+
+.PHONY : lesson5.i
+
+# target to preprocess a source file
+lesson5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson5.dir/build.make CMakeFiles/c_practice-lesson5.dir/lesson5.c.i
+.PHONY : lesson5.c.i
+
+lesson5.s: lesson5.c.s
+
+.PHONY : lesson5.s
+
+# target to generate assembly for a file
+lesson5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson5.dir/build.make CMakeFiles/c_practice-lesson5.dir/lesson5.c.s
+.PHONY : lesson5.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -300,6 +340,7 @@ help:
 	@echo "... c_practice-lesson2"
 	@echo "... c_practice-lesson3"
 	@echo "... c_practice-lesson4"
+	@echo "... c_practice-lesson5"
 	@echo "... c_practice-main"
 	@echo "... lesson2.o"
 	@echo "... lesson2.i"
@@ -310,6 +351,9 @@ help:
 	@echo "... lesson4.o"
 	@echo "... lesson4.i"
 	@echo "... lesson4.s"
+	@echo "... lesson5.o"
+	@echo "... lesson5.i"
+	@echo "... lesson5.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
