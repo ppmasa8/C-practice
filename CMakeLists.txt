@@ -10,4 +10,5 @@ add_executable(c_practice-lesson3 lesson3.c)
 add_executable(c_practice-lesson4 lesson4.c)
 add_executable(c_practice-lesson5 lesson5.c)
 add_executable(c_practice-lesson6 lesson6.c)
+add_executable(c_practice-lesson7 lesson7-1.c)
 

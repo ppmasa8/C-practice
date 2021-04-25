@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mmatsuzaki/CLionProjects/c-practice
+CMAKE_SOURCE_DIR = /Users/mmatsuzaki/ClionProjects/c-practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles /Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/CLionProjects/c-practice/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named c_practice-lesson7
+
+# Build rule for target.
+c_practice-lesson7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson7
+.PHONY : c_practice-lesson7
+
+# fast build rule for target.
+c_practice-lesson7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson7.dir/build.make CMakeFiles/c_practice-lesson7.dir/build
+.PHONY : c_practice-lesson7/fast
 
 #=============================================================================
 # Target rules for targets named c_practice-lesson5
@@ -342,6 +355,33 @@ lesson6.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson6.dir/build.make CMakeFiles/c_practice-lesson6.dir/lesson6.c.s
 .PHONY : lesson6.c.s
 
+lesson7-1.o: lesson7-1.c.o
+
+.PHONY : lesson7-1.o
+
+# target to build an object file
+lesson7-1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson7.dir/build.make CMakeFiles/c_practice-lesson7.dir/lesson7-1.c.o
+.PHONY : lesson7-1.c.o
+
+lesson7-1.i: lesson7-1.c.i
+
+.PHONY : lesson7-1.i
+
+# target to preprocess a source file
+lesson7-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson7.dir/build.make CMakeFiles/c_practice-lesson7.dir/lesson7-1.c.i
+.PHONY : lesson7-1.c.i
+
+lesson7-1.s: lesson7-1.c.s
+
+.PHONY : lesson7-1.s
+
+# target to generate assembly for a file
+lesson7-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson7.dir/build.make CMakeFiles/c_practice-lesson7.dir/lesson7-1.c.s
+.PHONY : lesson7-1.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -382,6 +422,7 @@ help:
 	@echo "... c_practice-lesson4"
 	@echo "... c_practice-lesson5"
 	@echo "... c_practice-lesson6"
+	@echo "... c_practice-lesson7"
 	@echo "... c_practice-main"
 	@echo "... lesson2.o"
 	@echo "... lesson2.i"
@@ -398,6 +439,9 @@ help:
 	@echo "... lesson6.o"
 	@echo "... lesson6.i"
 	@echo "... lesson6.s"
+	@echo "... lesson7-1.o"
+	@echo "... lesson7-1.i"
+	@echo "... lesson7-1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
