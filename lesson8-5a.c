@@ -1,17 +1,13 @@
 #include <stdio.h>
-
-int min(x, y) {
-    return (x > y ? y : x);
-}
+#include "lesson8-5b.c"
 
 int main(void) {
     int x, y;
-    printf("1番目の整数を入力してください\n");
+    printf("１番目の整数を入力してください\n");
     scanf("%d", &x);
     printf("2番目の整数を入力してください\n");
     scanf("%d", &y);
-
-    printf("最小値は%dです\n", min(x, y));
+    printf("%dの%d乗は%dです\n", x, y, power(x, y));
 
     return 0;
 }

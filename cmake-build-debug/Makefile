@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named c_practice-lesson8-5b
+
+# Build rule for target.
+c_practice-lesson8-5b: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson8-5b
+.PHONY : c_practice-lesson8-5b
+
+# fast build rule for target.
+c_practice-lesson8-5b/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5b.dir/build.make CMakeFiles/c_practice-lesson8-5b.dir/build
+.PHONY : c_practice-lesson8-5b/fast
+
+#=============================================================================
+# Target rules for targets named c_practice-lesson8-2
+
+# Build rule for target.
+c_practice-lesson8-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson8-2
+.PHONY : c_practice-lesson8-2
+
+# fast build rule for target.
+c_practice-lesson8-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-2.dir/build.make CMakeFiles/c_practice-lesson8-2.dir/build
+.PHONY : c_practice-lesson8-2/fast
+
+#=============================================================================
 # Target rules for targets named c_practice-lesson8-1
 
 # Build rule for target.
@@ -180,6 +206,19 @@ c_practice-lesson7-4: cmake_check_build_system
 c_practice-lesson7-4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson7-4.dir/build.make CMakeFiles/c_practice-lesson7-4.dir/build
 .PHONY : c_practice-lesson7-4/fast
+
+#=============================================================================
+# Target rules for targets named c_practice-lesson8-4
+
+# Build rule for target.
+c_practice-lesson8-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson8-4
+.PHONY : c_practice-lesson8-4
+
+# fast build rule for target.
+c_practice-lesson8-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-4.dir/build.make CMakeFiles/c_practice-lesson8-4.dir/build
+.PHONY : c_practice-lesson8-4/fast
 
 #=============================================================================
 # Target rules for targets named c_practice-lesson7-2
@@ -234,6 +273,19 @@ c_practice-lesson7-1/fast:
 .PHONY : c_practice-lesson7-1/fast
 
 #=============================================================================
+# Target rules for targets named c_practice-lesson8-5a
+
+# Build rule for target.
+c_practice-lesson8-5a: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson8-5a
+.PHONY : c_practice-lesson8-5a
+
+# fast build rule for target.
+c_practice-lesson8-5a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5a.dir/build.make CMakeFiles/c_practice-lesson8-5a.dir/build
+.PHONY : c_practice-lesson8-5a/fast
+
+#=============================================================================
 # Target rules for targets named c_practice-lesson6
 
 # Build rule for target.
@@ -258,6 +310,19 @@ c_practice-lesson2: cmake_check_build_system
 c_practice-lesson2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson2.dir/build.make CMakeFiles/c_practice-lesson2.dir/build
 .PHONY : c_practice-lesson2/fast
+
+#=============================================================================
+# Target rules for targets named c_practice-lesson8-3
+
+# Build rule for target.
+c_practice-lesson8-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_practice-lesson8-3
+.PHONY : c_practice-lesson8-3
+
+# fast build rule for target.
+c_practice-lesson8-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-3.dir/build.make CMakeFiles/c_practice-lesson8-3.dir/build
+.PHONY : c_practice-lesson8-3/fast
 
 #=============================================================================
 # Target rules for targets named c_practice-lesson7-3
@@ -582,6 +647,141 @@ lesson8-1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-1.dir/build.make CMakeFiles/c_practice-lesson8-1.dir/lesson8-1.c.s
 .PHONY : lesson8-1.c.s
 
+lesson8-2.o: lesson8-2.c.o
+
+.PHONY : lesson8-2.o
+
+# target to build an object file
+lesson8-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-2.dir/build.make CMakeFiles/c_practice-lesson8-2.dir/lesson8-2.c.o
+.PHONY : lesson8-2.c.o
+
+lesson8-2.i: lesson8-2.c.i
+
+.PHONY : lesson8-2.i
+
+# target to preprocess a source file
+lesson8-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-2.dir/build.make CMakeFiles/c_practice-lesson8-2.dir/lesson8-2.c.i
+.PHONY : lesson8-2.c.i
+
+lesson8-2.s: lesson8-2.c.s
+
+.PHONY : lesson8-2.s
+
+# target to generate assembly for a file
+lesson8-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-2.dir/build.make CMakeFiles/c_practice-lesson8-2.dir/lesson8-2.c.s
+.PHONY : lesson8-2.c.s
+
+lesson8-3.o: lesson8-3.c.o
+
+.PHONY : lesson8-3.o
+
+# target to build an object file
+lesson8-3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-3.dir/build.make CMakeFiles/c_practice-lesson8-3.dir/lesson8-3.c.o
+.PHONY : lesson8-3.c.o
+
+lesson8-3.i: lesson8-3.c.i
+
+.PHONY : lesson8-3.i
+
+# target to preprocess a source file
+lesson8-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-3.dir/build.make CMakeFiles/c_practice-lesson8-3.dir/lesson8-3.c.i
+.PHONY : lesson8-3.c.i
+
+lesson8-3.s: lesson8-3.c.s
+
+.PHONY : lesson8-3.s
+
+# target to generate assembly for a file
+lesson8-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-3.dir/build.make CMakeFiles/c_practice-lesson8-3.dir/lesson8-3.c.s
+.PHONY : lesson8-3.c.s
+
+lesson8-4.o: lesson8-4.c.o
+
+.PHONY : lesson8-4.o
+
+# target to build an object file
+lesson8-4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-4.dir/build.make CMakeFiles/c_practice-lesson8-4.dir/lesson8-4.c.o
+.PHONY : lesson8-4.c.o
+
+lesson8-4.i: lesson8-4.c.i
+
+.PHONY : lesson8-4.i
+
+# target to preprocess a source file
+lesson8-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-4.dir/build.make CMakeFiles/c_practice-lesson8-4.dir/lesson8-4.c.i
+.PHONY : lesson8-4.c.i
+
+lesson8-4.s: lesson8-4.c.s
+
+.PHONY : lesson8-4.s
+
+# target to generate assembly for a file
+lesson8-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-4.dir/build.make CMakeFiles/c_practice-lesson8-4.dir/lesson8-4.c.s
+.PHONY : lesson8-4.c.s
+
+lesson8-5a.o: lesson8-5a.c.o
+
+.PHONY : lesson8-5a.o
+
+# target to build an object file
+lesson8-5a.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5a.dir/build.make CMakeFiles/c_practice-lesson8-5a.dir/lesson8-5a.c.o
+.PHONY : lesson8-5a.c.o
+
+lesson8-5a.i: lesson8-5a.c.i
+
+.PHONY : lesson8-5a.i
+
+# target to preprocess a source file
+lesson8-5a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5a.dir/build.make CMakeFiles/c_practice-lesson8-5a.dir/lesson8-5a.c.i
+.PHONY : lesson8-5a.c.i
+
+lesson8-5a.s: lesson8-5a.c.s
+
+.PHONY : lesson8-5a.s
+
+# target to generate assembly for a file
+lesson8-5a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5a.dir/build.make CMakeFiles/c_practice-lesson8-5a.dir/lesson8-5a.c.s
+.PHONY : lesson8-5a.c.s
+
+lesson8-5b.o: lesson8-5b.c.o
+
+.PHONY : lesson8-5b.o
+
+# target to build an object file
+lesson8-5b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5b.dir/build.make CMakeFiles/c_practice-lesson8-5b.dir/lesson8-5b.c.o
+.PHONY : lesson8-5b.c.o
+
+lesson8-5b.i: lesson8-5b.c.i
+
+.PHONY : lesson8-5b.i
+
+# target to preprocess a source file
+lesson8-5b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5b.dir/build.make CMakeFiles/c_practice-lesson8-5b.dir/lesson8-5b.c.i
+.PHONY : lesson8-5b.c.i
+
+lesson8-5b.s: lesson8-5b.c.s
+
+.PHONY : lesson8-5b.s
+
+# target to generate assembly for a file
+lesson8-5b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_practice-lesson8-5b.dir/build.make CMakeFiles/c_practice-lesson8-5b.dir/lesson8-5b.c.s
+.PHONY : lesson8-5b.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -628,6 +828,11 @@ help:
 	@echo "... c_practice-lesson7-4"
 	@echo "... c_practice-lesson7-5"
 	@echo "... c_practice-lesson8-1"
+	@echo "... c_practice-lesson8-2"
+	@echo "... c_practice-lesson8-3"
+	@echo "... c_practice-lesson8-4"
+	@echo "... c_practice-lesson8-5a"
+	@echo "... c_practice-lesson8-5b"
 	@echo "... c_practice-main"
 	@echo "... lesson2.o"
 	@echo "... lesson2.i"
@@ -662,6 +867,21 @@ help:
 	@echo "... lesson8-1.o"
 	@echo "... lesson8-1.i"
 	@echo "... lesson8-1.s"
+	@echo "... lesson8-2.o"
+	@echo "... lesson8-2.i"
+	@echo "... lesson8-2.s"
+	@echo "... lesson8-3.o"
+	@echo "... lesson8-3.i"
+	@echo "... lesson8-3.s"
+	@echo "... lesson8-4.o"
+	@echo "... lesson8-4.i"
+	@echo "... lesson8-4.s"
+	@echo "... lesson8-5a.o"
+	@echo "... lesson8-5a.i"
+	@echo "... lesson8-5a.s"
+	@echo "... lesson8-5b.o"
+	@echo "... lesson8-5b.i"
+	@echo "... lesson8-5b.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

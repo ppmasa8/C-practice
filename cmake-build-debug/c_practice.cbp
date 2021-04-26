@@ -17,6 +17,86 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="c_practice-lesson8-5b">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-5b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-5b"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-5b/fast">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-5b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-5b/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-2">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-2/fast">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
 				<Option type="4"/>
@@ -187,6 +267,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="c_practice-lesson8-4">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-4/fast">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="c_practice-lesson7-2">
 				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson7-2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
@@ -347,6 +467,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="c_practice-lesson8-5a">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-5a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-5a"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-5a/fast">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-5a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-5a/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="c_practice-lesson6">
 				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson6" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
@@ -422,6 +582,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-3">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_practice-lesson8-3/fast">
+				<Option output="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/c_practice-lesson8-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_practice-lesson8-3/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mmatsuzaki/ClionProjects/c-practice/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -550,6 +750,21 @@
 		</Unit>
 		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-1.c">
 			<Option target="c_practice-lesson8-1"/>
+		</Unit>
+		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-2.c">
+			<Option target="c_practice-lesson8-2"/>
+		</Unit>
+		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-3.c">
+			<Option target="c_practice-lesson8-3"/>
+		</Unit>
+		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-4.c">
+			<Option target="c_practice-lesson8-4"/>
+		</Unit>
+		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-5a.c">
+			<Option target="c_practice-lesson8-5a"/>
+		</Unit>
+		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/lesson8-5b.c">
+			<Option target="c_practice-lesson8-5b"/>
 		</Unit>
 		<Unit filename="/Users/mmatsuzaki/ClionProjects/c-practice/main.c">
 			<Option target="c_practice-main"/>
